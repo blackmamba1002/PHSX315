@@ -3,12 +3,12 @@
 #![allow(non_snake_case)]
 
 use plotters::prelude::*;
-use rand_chacha;
+use rand_pcg::Pcg32;
 use rand::{distributions::Uniform, SeedableRng};
 use rand_distr::{Distribution};
 use std::time::Instant;
 
-const ITERATIONS: usize = 1000000;
+const ITERATIONS: usize = 100000;
 const POINTSCALE: f64 = 2f64;
 const DIMENSIONS: (u32, u32) = (1024, 1024);
 const OUT_FILE_NAME: &'static str = "calculating_pi.png";
@@ -17,11 +17,9 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     let before = Instant::now();
 
     let point: Vec<(f64, f64)> = {
-        let rng = Uniform::new(-1.0, 1.0);
-        let x_rand = rand_chacha::ChaCha8Rng::seed_from_u64(42);
-        let y_rand = rand_chacha::ChaCha8Rng::seed_from_u64(43);
-        let x_iter = rng.sample_iter(x_rand);
-        let y_iter = rng.sample_iter(y_rand);
+        let between = Uniform::from(-1f64..1f64);
+        let x_iter = between.sample_iter(Pcg32::seed_from_u64(42));
+        let y_iter = between.sample_iter(Pcg32::seed_from_u64(43));
         x_iter.zip(y_iter).take(ITERATIONS).collect()
     };
 
@@ -50,6 +48,14 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     println!("Elapsed time (calculation): {:.2?}", before.elapsed());
     println!(" Pi is approximately equal to: {}", pi);
     println!(" There were [{}] points inside the circle.", inside);
+
+    // standard deviation
+    let mut sum: f64 = 0f64;
+    for i in 0..point.len()  {
+        sum += point[i].0;
+    }  
+    let mean = sum / point.len() as f64;
+    println!(" Standard Deviation (one axis): {:?}", f64::sqrt(f64::abs(mean-f64::powi(mean, 2))));
 
     // plotting
     println!("\nCompiling plot ...");
@@ -91,5 +97,6 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     println!("Done!\nElapsed time (total): {:.2?}", before.elapsed());
 
+    // println!("{:?}", point);
     Ok(())
 }
