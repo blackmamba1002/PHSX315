@@ -58,7 +58,7 @@ percent = df["in_bounds"].value_counts()[False]/args.iterations
 calculated_pi = percent*6
 
 err = 6 * np.sqrt( (np.pi/6) * (1.0 - (np.pi/6) ))
-print("% in Sphere:", percent, "\nCalculated pi:", calculated_pi, "\nError:", err, "\n% Difference:", np.diff([calculated_pi, np.pi]))
+print("% in Sphere:", percent, "\nCalculated pi:", calculated_pi, "\nError:", err)
 
 print("\n", df)
 
