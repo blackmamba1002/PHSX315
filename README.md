@@ -20,7 +20,9 @@ of your code, example results from running the code, and appropriate figures.
 ---
 
 
+## Results:
 
-## Results (Generated from the Rust Script - 10,000 Samples)
-![](https://github.com/phsx315-sp23/assignment3-Mamba-Grant/blob/main/resources/3d-plot2.gif|600)
+
+## Visualization of Results (Rust Script - 10,000 Samples - Seed 42)
+![](https://github.com/phsx315-sp23/assignment3-Mamba-Grant/blob/main/resources/3d-plot2.gif)
 
