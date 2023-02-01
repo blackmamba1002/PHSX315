@@ -9,7 +9,6 @@ use rand_distr::Distribution;
 use rand_pcg::Pcg32;
 use std::time::Instant;
 
-// const ITERATIONS: usize = 1000;
 const PI: f64 = 3.1415926535897932384626433832795028841971693993751058209749445923;
 const POINTSCALE: f64 = 2f64;
 const DIMENSIONS: (u32, u32) = (600, 600);
@@ -95,9 +94,12 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     let percent = inside as f64 / _iterations as f64;
     let calculated_pi = 6f64 * percent;
-    let err = 6f64 * f64::sqrt((calculated_pi / 6f64) * (1f64 - (calculated_pi / 6f64))) / f64::sqrt(_iterations as f64);
+    let err = 6f64 * f64::sqrt((calculated_pi / 6f64) * (1f64 - (calculated_pi / 6f64)))
+        / f64::sqrt(_iterations as f64);
     let pd = (calculated_pi - PI).abs() / ((calculated_pi + PI) / 2f64);
 
+    // Output
+    println!("Running with {} Samples:", _iterations);
     println!("Elapsed time (calculation): {:.2?}", before.elapsed());
     println!(" Pi is approximately equal to: {}", calculated_pi);
     println!(
