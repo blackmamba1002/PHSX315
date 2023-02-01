@@ -29,9 +29,10 @@ def plot():
 
 parser = argparse.ArgumentParser()
 
-parser.add_argument("-i", "--iterations", help="Iteration count.", type=int, default=1000)
-parser.add_argument("-s", "--seed", help="Random generation seed.", type=int, default=2)
-parser.add_argument("-p", "--plot", help="Plot Results (True/False).", action="store_true")
+parser.add_argument("-i", "--iterations", help="Iteration Count.", type=int, default=1000)
+parser.add_argument("-s", "--seed", help="Random Seed.", type=int, default=2)
+parser.add_argument("-p", "--plot", help="Plot Results.", action="store_true")
+parser.add_argument("-df", "--dataframe", help="Display Dataframe.", action="store_true")
 args = parser.parse_args()
 
 np.random.seed(args.seed)
@@ -53,14 +54,16 @@ for e in range(0,  args.iterations):
     
     index+=1
 
-percent = df["in_bounds"].value_counts()[False]/args.iterations
+percent = df["in_bounds"].value_counts()[True]/args.iterations
 calculated_pi = percent*6
 
-err = 6 * np.sqrt( (np.pi/6) * (1.0 - (np.pi/6) ))
+err = 6 * np.sqrt( (np.pi/6) * (1.0 - (np.pi/6) )) / np.sqrt(args.iterations)
 print("% in Sphere:", percent, "\nCalculated pi:", calculated_pi, "\nError:", err)
 
-print("\n", df)
+if args.dataframe:
+    print("\n", df)
 
 if args.plot:
     plot()
+    
     
