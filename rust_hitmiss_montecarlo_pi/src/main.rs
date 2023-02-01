@@ -95,7 +95,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     let percent = inside as f64 / _iterations as f64;
     let calculated_pi = 6f64 * percent;
-    let err = 6f64 * f64::sqrt((PI / 6f64) * (1f64 - (PI / 6f64))) / f64::sqrt(_iterations as f64);
+    let err = 6f64 * f64::sqrt((calculated_pi / 6f64) * (1f64 - (calculated_pi / 6f64))) / f64::sqrt(_iterations as f64);
     let pd = (calculated_pi - PI).abs() / ((calculated_pi + PI) / 2f64);
 
     println!("Elapsed time (calculation): {:.2?}", before.elapsed());
@@ -104,7 +104,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
         " There were [{}] points inside the circle [{}%].",
         inside, percent
     );
-    println!(" Error %: {}\n Diff %: {}", err, pd);
+    println!(" Standard Deviation: {}\n Diff %: {}", err, pd);
 
     if _plot == true {
         plot(random_points)?;
