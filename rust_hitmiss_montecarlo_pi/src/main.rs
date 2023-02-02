@@ -103,8 +103,8 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     println!("Elapsed time (calculation): {:.2?}", before.elapsed());
     println!(" Pi is approximately equal to: {}", calculated_pi);
     println!(
-        " There were [{}] points inside the circle [{}%].",
-        inside, percent
+        " There were [{}] points inside the sphere [{}%].",
+        inside, percent*10f64
     );
     println!(" Standard Deviation: {}\n Diff %: {}", err, pd);
 

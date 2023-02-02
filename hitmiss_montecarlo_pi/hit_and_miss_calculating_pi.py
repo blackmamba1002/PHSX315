@@ -4,26 +4,26 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import argparse
  
-def plot():
-    sb.set(style='whitegrid', rc={"figure.figsize":(4, 4)})    
-    sb.set_palette(['#62C370', '#EF476F'])
-
-    fig = plt.figure()
-    x1 = fig.add_subplot(projection='3d')
-    # x1.set_aspect("equal")
-
-    # x1.view_init(45, 55)
-
-    # Draw Scatter
+# def plot():
+#     sb.set(style='whitegrid', rc={"figure.figsize":(4, 4)})
+#     sb.set_palette(['#62C370', '#EF476F'])
+#
+#     fig = plt.figure()
+#     x1 = fig.add_subplot(projection='3d')
+#     # x1.set_aspect("equal")
+#
+#     # x1.view_init(45, 55)
+#
+#     # Draw Scatter
     for s in df.in_bounds.unique():
         x1.scatter(df.x[df.in_bounds==s],df.y[df.in_bounds==s],df.z[df.in_bounds==s],label=s)
-    
+
     u, v = np.mgrid[0:2*np.pi:20j, 0:np.pi:10j]
     x = np.cos(u)*np.sin(v)
     y = np.sin(u)*np.sin(v)
     z = np.cos(v)
     x1.plot_wireframe(x, y, z, color="b")
-    
+
     plt.show()
     
 
@@ -57,13 +57,11 @@ for e in range(0,  args.iterations):
 percent = df["in_bounds"].value_counts()[True]/args.iterations
 calculated_pi = percent*6
 
-err = 6 * np.sqrt( (np.pi/6) * (1.0 - (np.pi/6) )) / np.sqrt(args.iterations)
-print("% in Sphere:", percent, "\nCalculated pi:", calculated_pi, "\nError:", err)
+err = 6 * np.sqrt( (calculated_pi/6) * (1.0 - (calculated_pi/6) )) / np.sqrt(args.iterations)
+print("% in Sphere:", percent, "\nCalculated pi:", calculated_pi, "\nStandard Deviation:", err)
 
 if args.dataframe:
     print("\n", df)
 
 if args.plot:
     plot()
-    
-    
