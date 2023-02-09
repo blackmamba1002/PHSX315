@@ -1,20 +1,24 @@
 import seaborn as sb
 import numpy as np
+import mplcatppuccin
+import matplotlib as mpl
 import matplotlib.pyplot as plt
 import pandas as pd
 import argparse
  
-# def plot():
-#     sb.set(style='whitegrid', rc={"figure.figsize":(4, 4)})
-#     sb.set_palette(['#62C370', '#EF476F'])
-#
-#     fig = plt.figure()
-#     x1 = fig.add_subplot(projection='3d')
-#     # x1.set_aspect("equal")
-#
-#     # x1.view_init(45, 55)
-#
-#     # Draw Scatter
+def plot():
+    # sb.set(style='whitegrid', rc={"figure.figsize":(4, 4)})
+    # sb.set_palette(['#62C370', '#EF476F'])
+    mpl.style.use(["ggplot", "latte"])
+
+
+    fig = plt.figure()
+    x1 = fig.add_subplot(projection='3d')
+    # x1.set_aspect("equal")
+
+    # x1.view_init(45, 55)
+
+    # Draw Scatter
     for s in df.in_bounds.unique():
         x1.scatter(df.x[df.in_bounds==s],df.y[df.in_bounds==s],df.z[df.in_bounds==s],label=s)
 
@@ -22,7 +26,7 @@ import argparse
     x = np.cos(u)*np.sin(v)
     y = np.sin(u)*np.sin(v)
     z = np.cos(v)
-    x1.plot_wireframe(x, y, z, color="b")
+    x1.plot_wireframe(x, y, z)
 
     plt.show()
     
