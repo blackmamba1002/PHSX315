@@ -1,6 +1,7 @@
 using CSV
 using DataFrames 
 using Distributions
+using PlotlyBase
 using PlotlyJS
 
 const G_earth = 6.67430e-11
@@ -16,40 +17,42 @@ df_2 = DataFrame(CSV.File("experiment2.csv"))
 χ²_2 = sum((df_2.g.-9.8 ).^2 ./ df_2.dg)
 χ²_3 = 0.0
     for (i,e) in enumerate(df_2.Height)
-        global χ²_3 += ((df_2.g[i]-f(e))^2 / df_2.dg[i])
+        global χ²_3 += ((df_2.g[i]-g(e))^2 / df_2.dg[i])
     end
 
 println(χ²_1)
 println(χ²_2)
 println(χ²_3)
 
-data =  [
-    scatter(x=[0,1900], y=[9.8,9.8], mode="lines", name="Prediction (Constant)", xaxis="x2", yaxis="y3")
-    scatter(df_1, x=:Height, y=:g, mode="markers", name="Data (Set 1)", xaxis="x2", yaxis="y3", error_y=attr(
+# PLOTTING THINGS
+d1 =  [
+    scatter(x=[0,1900], y=[9.8,9.8], mode="lines", name="Prediction (Constant)")
+    scatter(df_1, x=:Height, y=:g, mode="markers", name="Data (Set 1)", error_y=attr(
         type="percent",
         value=0.05
-    ))
-    
-    scatter(x=[0,14500], y=[9.8,9.8], mode="lines", name="Prediction (Constant)", xaxis="x", yaxis="y3")
-    scatter(df_2, x=:Height, y=:g, mode="markers", name="Data (Set 2)", xaxis="x", yaxis="y3", error_y=attr(
+    ))]
+
+d2 = [
+    scatter(x=[0,14500], y=[9.8,9.8], mode="lines", name="Prediction (Constant)")
+    scatter(df_2, x=:Height, y=:g, mode="markers", name="Data (Set 2)", error_y=attr(
         type="percent",
         value=0.01
-    ))
+    ))]
 
-    scatter(x=[0,14500], y=[f(0),f(14500)], mode="lines", name="Prediction (Newton's)", xaxis="x", yaxis="y")
-    scatter(df_2, x=:Height, y=:g, mode="markers", name="Data (Set 2)", xaxis="x", yaxis="y", error_y=attr(
+d3 = [
+    scatter(x=[0,14500], y=[g(0),g(14500)], mode="lines", name="Prediction (Newton's)")
+    scatter(df_2, x=:Height, y=:g, mode="markers", name="Data (Set 2)", error_y=attr(
         type="percent",
         value=0.01
-    ))
-    ]
-layout = Layout(
-    xaxis_domain=[0, 0.45],
-    yaxis_domain=[0, 0.45],
-    xaxis4=attr(domain=[0.55, 1.0], anchor="y4"),
-    xaxis2_domain=[0.55, 1],
-    yaxis3_domain=[0.55, 1],
-    yaxis4=attr(domain=[0.55, 1], anchor="x4")
-)
-plot(data, layout)
+    ))]
 
-savefig(plot(data, layout), "test.html")
+p1 = plot(d1, Layout(title="subplot 1"))
+p2 = plot(d2, Layout(title="subplot 2"))
+p3 = plot(d3, Layout(title="subplot 3"))
+p4 = plot()
+
+p = [p1 p2; p3 p4]
+relayout!(p, height=500, width=700, title_text="Multiple Subplots with Titles")
+p
+
+savefig(p, "Plots.png")
