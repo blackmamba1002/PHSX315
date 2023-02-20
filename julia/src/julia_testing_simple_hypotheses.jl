@@ -3,8 +3,6 @@ using DataFrames
 using Distributions
 using PlotlyJS
 
-
-
 const G_earth = 6.67430e-11
 const mass_earth = 5.97219e24
 const radius_earth = 6378e3
@@ -25,8 +23,6 @@ println(χ²_1)
 println(χ²_2)
 println(χ²_3)
 
-# plot([trace1, trace2])
-# plot([trace3,trace4])
 data =  [
     # scatter(x=1:3, y=2:4),
     # scatter(x=20:10:40, y=fill(5, 3), xaxis="x2", yaxis="y"),
@@ -59,3 +55,5 @@ layout = Layout(
     yaxis4=attr(domain=[0.55, 1], anchor="x4")
 )
 plot(data, layout)
+
+savefig(plot(data, layout), "test.html")
