@@ -24,10 +24,6 @@ println(χ²_2)
 println(χ²_3)
 
 data =  [
-    # scatter(x=1:3, y=2:4),
-    # scatter(x=20:10:40, y=fill(5, 3), xaxis="x2", yaxis="y"),
-    # scatter(x=2:4, y=600:100:800, xaxis="x", yaxis="y3"),
-    # scatter(x=4000:1000:6000, y=7000:1000:9000, xaxis="x4", yaxis="y4")
     scatter(x=[0,1900], y=[9.8,9.8], mode="lines", name="Prediction (Constant)", xaxis="x2", yaxis="y3")
     scatter(df_1, x=:Height, y=:g, mode="markers", name="Data (Set 1)", xaxis="x2", yaxis="y3", error_y=attr(
         type="percent",
