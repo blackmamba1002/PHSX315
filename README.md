@@ -50,4 +50,4 @@ ndof:    29
  
 Observed chi-squared p-value of 100.0 % (q-value =  0.0 %)
 ```
-![](https://github.com/phsx315-sp23/assignment4-Mamba-Grant/blob/main/test.png)
+![](https://github.com/phsx315-sp23/assignment4-Mamba-Grant/blob/main/plots.png)
