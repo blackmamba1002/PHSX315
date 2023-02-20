@@ -48,11 +48,11 @@ d3 = [
 
 p1 = plot(d1, Layout(title="Constant (Set 1)"))
 p2 = plot(d2, Layout(title="Constant (Set 2)"))
-p3 = plot(d3, Layout(title="Newtons (Set 2)"))
+p3 = plot(d3, Layout(title="Newton's (Set 2)"))
 p4 = plot()
 
 p = [p1 p2; p3 p4]
-relayout!(p, height=500, width=700, title_text="")
+relayout!(p, height=1500, width=1900, title_text="")
 p
 
 savefig(p, "Plots.png")

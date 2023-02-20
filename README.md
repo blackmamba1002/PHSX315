@@ -3,14 +3,14 @@
 # Problem 1:
 Use the PValues calculator in ClassExamples to calculate (and report) the two-tailed probability for a normally distributed random number to be more than 1.0 σ, 2.0 σ, 3.0 σ, 4.0 σ, 5.0 σ, and 6.0 σ from the mean. 
 
-| σ   | p     |
-| --- | ----- |
-| 1.0 | 15.73 |
-| 2.0 | 8.32  |
-| 3.0 | 4.55  |
-| 4.0 | 2.53  |
-| 5.0 | 1.43  |
-| 6.0 | 0.82  |
+| σ   | p         | 1-p   |
+| --- | --------- | ----- |
+| 1.0 | 31.73     | 68.27 |
+| 2.0 | 4.550     | 95.45 |
+| 3.0 | 0.2700    | 99.73 |
+| 4.0 | 0.006334  | 99.99 |
+| 5.0 | 5.733e-05 | 99.99 |
+| 6.0 | 1.973e-07 | 99.99 |
 
 # Problems 2, 3, 4:
 
