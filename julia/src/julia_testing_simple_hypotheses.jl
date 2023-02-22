@@ -16,13 +16,13 @@ df_2 = DataFrame(CSV.File("experiment2.csv"))
 χ²_1 = sum((df_1.g.-9.8).^2 ./ df_1.dg.^2)
 χ²_2 = sum((df_2.g.-9.8 ).^2 ./ df_2.dg)
 χ²_3 = 0.0
-    for (i,e) in enumerate(df_2.Height)
-        global χ²_3 += ((df_2.g[i]-g(e))^2 / df_2.dg[i])
-    end
+for (i,e) in enumerate(df_2.Height)
+    global χ²_3 += ((df_2.g[i]-g(e))^2 / df_2.dg[i])
+end
 
-println(χ²_1)
-println(χ²_2)
-println(χ²_3)
+println("χ² Constant (Set 1)", χ²_1)
+println("χ² Constant (Set 2)", χ²_2)
+println("χ² Newton's (Set 2)", χ²_3)
 
 # PLOTTING THINGS
 d1 =  [
@@ -53,6 +53,6 @@ p4 = plot()
 
 p = [p1 p2; p3 p4]
 relayout!(p, height=1500, width=1900, title_text="")
-p
-
+# p
+println("Done!  saved file to:")
 savefig(p, "Plots.png")
