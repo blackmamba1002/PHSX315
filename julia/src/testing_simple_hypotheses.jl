@@ -1,6 +1,5 @@
 using CSV
 using DataFrames 
-using Distributions
 using PlotlyJS
 using SpecialFunctions: gamma           # Contains an implementation of the Gamma Function 
 using NumericalIntegration: integrate   # Integration Library
@@ -14,7 +13,6 @@ c(x, n) = (x^(n/2-1)*ℯ^(-x/2))/(2^(n/2) *gamma(n/2))
 
 df_1 = DataFrame(CSV.File("experiment1.csv"))
 df_2 = DataFrame(CSV.File("experiment2.csv"))
-
 
 χ²_1 = sum((df_1.g.-9.8).^2 ./ df_1.dg.^2)
 χ²_2 = sum((df_2.g.-9.8 ).^2 ./ df_2.dg)
@@ -32,6 +30,7 @@ probability1 = 1-integrate(x1, c.(x1, 19))
 probability2 = 1-integrate(x2, c.(x2, 29))
 probability3 = 1-integrate(x3, c.(x3, 29))
 
+println("   RESULTS           (Chi-Square, p-value)")
 println("χ² Constant (Set 1): (", χ²_1, ", ", probability1*100, "%)")
 println("χ² Constant (Set 2): (", χ²_2, ", ", probability2*100, "%)")
 println("χ² Newton's (Set 2): (", χ²_3, ", ", probability3*100, "%)")
