@@ -19,7 +19,7 @@ $$\begin{align*}
 \end{align*}$$
 
 1. $H_0$: Acelleration due to gravity is constant at all heights.
-2. $H_a$: Acelleration due to gravity is not constant at all heights.
+2. $H_1$: Acelleration due to gravity is not constant at all heights.
 
 ---
 
@@ -58,7 +58,7 @@ $$\begin{align*}
 & &&R_{earth}=6.378\times10^6
 \end{align*}$$
 
-### $H_a$ (Dataset 2):
+### $H_1$ (Dataset 2):
 ```
 (pvalueArgs.getArgs     ) Found argument list:  Namespace(chsq=0.2843, ndof=29)
 (pvalueArgs.getArguments) Assigning arguments to program variables
@@ -74,3 +74,7 @@ Observed chi-squared p-value of 100.0 % (q-value =  0.0 %)
 ![](https://github.com/phsx315-sp23/assignment4-Mamba-Grant/blob/main/Plots.png)
 
 ---
+
+$$c\left(w\right)=\frac{w^{\frac{D_{freedom}}{2}-1}e^{-\frac{w}{2}}}{2^{\frac{D_{freedom}}{2}}\cdot\left(\frac{D_{freedom}}{2}-1\right)!}\ \left\{w\ge0\right\}$$
+
+$$p=\operatorname{round}\left(1-\int_{0}^{\chi^2}c(x)\ dx,6\right)$$
