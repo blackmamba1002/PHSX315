@@ -21,52 +21,37 @@ $$\begin{align*}
 1. $H_0$: Acelleration due to gravity is constant at all heights.
 2. $H_1$: Acelleration due to gravity is not constant at all heights.
 
----
-
+**Calculating Chi-Square Values for our Datasets:**
 $$\begin{align*}
 \chi^{2}=\sum\limits_{i=1}^{n}\left(\frac{g_{i}-9.8}{\sigma_{i}}\right)^{2} &&\text{(chi-squared value as predicted by $H_0$)}
 \end{align*}$$
 
-### $H_0$ (Dataset 1):
-```
-(pvalueArgs.getArgs     ) Found argument list:  Namespace(chsq=15.15, ndof=19)
-(pvalueArgs.getArguments) Assigning arguments to program variables
-(pvalueArgs.ShowArgs    ) Program has set
-chsq:    15.15
-ndof:    19
- 
-Observed chi-squared p-value of 71.30171773569013 % (q-value =  28.698282264309867 %)
-```
-
-### $H_0$ (Dataset 2):
-```
-(pvalueArgs.getArgs     ) Found argument list:  Namespace(chsq=2.781, ndof=29)
-(pvalueArgs.getArguments) Assigning arguments to program variables
-(pvalueArgs.ShowArgs    ) Program has set
-chsq:    2.781
-ndof:    29
- 
-Observed chi-squared p-value of 99.9999999902764 % (q-value =  9.723606808620389e-09 %)
-```
-
----
-
 $$\begin{align*}
-\chi^{2}&=\sum\limits_{i=1}^{n}\left(\frac{g_{i}-G_{earth}( \frac{M_{earth}}{R_{earth}+h_i} )}{\sigma_{i}}\right)^{2} &&\text{(chi-squared value as predicted by $H_a$)}\\
+\chi^{2}&=\sum\limits_{i=1}^{n}\left(\frac{g_{i}-G_{earth}( \frac{M_{earth}}{R_{earth}+h_i} )}{\sigma_{i}}\right)^{2} &&\text{(chi-squared value as predicted by $H_1$)}\\
 & &&G_{earth}=6.67430\times10^{-11}\\
 & &&M_{earth}=5.97219\times10^{24}\\
 & &&R_{earth}=6.378\times10^6
 \end{align*}$$
 
-### $H_1$ (Dataset 2):
+
+**Calculating the Chi-Square Distribution and p-values:**
+$$\begin{align*}
+c(x)&=\frac{x^{\frac{D_{freedom}}{2}-1}e^{-\frac{x}{2}}}{2^{\frac{D_{freedom}}{2}}\cdot\left(\frac{D_{freedom}}{2}-1\right)!}\ &&\{x\ge0\} &&&\text{(Chi-Square Distribution)}
+\end{align*}$$
+
+$$\begin{align*}
+p&=1-\int_{0}^{\chi^2}c(x)\ dx &&&\text{(p-value from Chi-Square Distribution)}
+\end{align*}$$
+
+## Results:
+
+**Program Output:**
 ```
-(pvalueArgs.getArgs     ) Found argument list:  Namespace(chsq=0.2843, ndof=29)
-(pvalueArgs.getArguments) Assigning arguments to program variables
-(pvalueArgs.ShowArgs    ) Program has set
-chsq:    0.2843
-ndof:    29
- 
-Observed chi-squared p-value of 100.0 % (q-value =  0.0 %)
+χ² Constant (Set 1): (15.153200000000115, 71.28246508819987%)
+χ² Constant (Set 2): (2.7811730000000883, 99.99999999027636%)
+χ² Newton's (Set 2): (0.2842575504814163, 100.0%)
+Done!  saved file to:
+"Plots.png"
 ```
 
 ---
@@ -74,7 +59,3 @@ Observed chi-squared p-value of 100.0 % (q-value =  0.0 %)
 ![](https://github.com/phsx315-sp23/assignment4-Mamba-Grant/blob/main/Plots.png)
 
 ---
-
-$$c\left(w\right)=\frac{w^{\frac{D_{freedom}}{2}-1}e^{-\frac{w}{2}}}{2^{\frac{D_{freedom}}{2}}\cdot\left(\frac{D_{freedom}}{2}-1\right)!}\ \left\{w\ge0\right\}$$
-
-$$p=\operatorname{round}\left(1-\int_{0}^{\chi^2}c(x)\ dx,6\right)$$
