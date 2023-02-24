@@ -38,7 +38,7 @@ $$\begin{align*}
 **Calculating the Chi-Square Distribution and p-values:**
 
 $$\begin{align*}
-c(x)&=\frac{x^{\frac{D_{freedom}}{2}-1}e^{-\frac{x}{2}}}{2^{\frac{D_{freedom}}{2}}\cdot\left(\frac{D_{freedom}}{2}-1\right)!}\ &&\{x\ge0\} &&&\text{(Chi-Square Distribution)}
+c(x)&=\frac{x^{\frac{D_{freedom}}{2}-1}e^{-\frac{x}{2}}}{2^{\frac{D_{freedom}}{2}}\cdot\Gamma\left(\frac{D_{freedom}}{2}\right)}\ &&\{x\ge0\} &&&\text{(Chi-Square Distribution)}
 \end{align*}$$
 
 $$\begin{align*}
@@ -47,8 +47,9 @@ p&=1-\int_{0}^{\chi^2}c(x)\ dx &&&\text{(p-value from Chi-Square Distribution)}
 
 ## Results:
 
-**Program Output (chi-square value, p-value):**
+**Program Output:**
 ```
+   RESULTS           (Chi-Square, p-value)
 χ² Constant (Set 1): (15.153200000000115, 71.28246508819987%)
 χ² Constant (Set 2): (2.7811730000000883, 99.99999999027636%)
 χ² Newton's (Set 2): (0.2842575504814163, 100.0%)
