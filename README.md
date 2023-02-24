@@ -22,6 +22,7 @@ $$\begin{align*}
 2. $H_1$: Acelleration due to gravity is not constant at all heights.
 
 **Calculating Chi-Square Values for our Datasets:**
+
 $$\begin{align*}
 \chi^{2}=\sum\limits_{i=1}^{n}\left(\frac{g_{i}-9.8}{\sigma_{i}}\right)^{2} &&\text{(chi-squared value as predicted by $H_0$)}
 \end{align*}$$
@@ -35,6 +36,7 @@ $$\begin{align*}
 
 
 **Calculating the Chi-Square Distribution and p-values:**
+
 $$\begin{align*}
 c(x)&=\frac{x^{\frac{D_{freedom}}{2}-1}e^{-\frac{x}{2}}}{2^{\frac{D_{freedom}}{2}}\cdot\left(\frac{D_{freedom}}{2}-1\right)!}\ &&\{x\ge0\} &&&\text{(Chi-Square Distribution)}
 \end{align*}$$
