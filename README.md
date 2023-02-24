@@ -47,7 +47,7 @@ p&=1-\int_{0}^{\chi^2}c(x)\ dx &&&\text{(p-value from Chi-Square Distribution)}
 
 ## Results:
 
-**Program Output:**
+**Program Output (chi-square value, p-value):**
 ```
 χ² Constant (Set 1): (15.153200000000115, 71.28246508819987%)
 χ² Constant (Set 2): (2.7811730000000883, 99.99999999027636%)
