@@ -86,6 +86,6 @@ c2 = plot(c.(0:0.1:65, 29), chsq_layout_set2)
 
 p = [p1 p2 c1; p3 p4 c2]
 relayout!(p, height=1300, width=4000, title_text="")
-
+display(p)
 println("Done!  saved file to:")
 savefig(p, "Plots.png")
