@@ -33,6 +33,8 @@ m.errordef = 1.0 # Corresponds to change in function value associated with +- 1 
 m.migrad()  # finds minimum of least_squares function
 m.hesse()   # accurately computes uncertainties
 
+print(m.values)
+
 
 sb.set_theme(style="darkgrid")
 fig = sb.FacetGrid(df).set(title="Chisqfit.py")
