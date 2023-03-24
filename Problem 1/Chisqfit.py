@@ -26,6 +26,7 @@ parser.add_argument('-s', '--seed', type=int, default=2)
 parser.add_argument('-n', '--numpoints', type=int, default=20)
 parser.add_argument('-c', '--true_intercept', type=float, default=1.0)
 parser.add_argument('-sl', '--true_slope', type=float, default=2.0)
+parser.add_argument('-p', '--plot', default=False, action="store_true")
 args = parser.parse_args()
 
 
@@ -62,8 +63,8 @@ for p, v, e in zip(m.parameters, m.values, m.errors):
 plt.legend(title="\n".join(legend))
 
 
-print("Run Arguments:", args)
 print(df)
+print("Run Arguments:", args)
 
 print('\nBest fit function value (Chi-squared):',m.fval,' for ndof = ',len(x_data)-m.nfit)
 ndof = len(x_data)-m.nfit
@@ -74,5 +75,6 @@ print('Fitted parameter correlation coefficient matrix:')
 print(m.covariance.correlation())
 
 
-plt.show()
+# if args.plot:
+plt.show(block=False)
 plt.pause(10)   # Keep on-screen for 10s
