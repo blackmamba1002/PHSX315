@@ -14,6 +14,9 @@ quad_dist(x, p) = quad_dist(x, p...)
 expo_dist(x, a, b) = a^x+b
 expo_dist(x, p) = expo_dist(x, p...)
 
+legendere_quad_dist(x, a, b, c) = 1/2((3*a*x^2)-(2*b))+c
+legendere_quad_dist(x, p) = legendere_quad_dist(x, p...)
+
 # IMinuit wrapper has a macro for model_fit which automatically does χ² fitting
 m1 = @model_fit quad_dist data1 [1,2,0]
 migrad(m1)
@@ -29,8 +32,6 @@ m1_fitted(x) = quad_dist(x, m1.values[1], m1.values[2], m1.values[3])
 m2_fitted(x) = quad_dist(x, m2.values[1], m2.values[2], m2.values[3])
 
 # PLOTS
-layout = Layout(title="Problem 2")
-
 d1 = [
     scatter(df1, x=:theta, y=:T,
     mode="markers", 
@@ -52,4 +53,4 @@ d2 = [
 
 p = [plot(d1, Layout(title="Low Precision (P. 2)")) plot(d2, Layout(title="High Precision (P. 2)"))]
 display(p)
-savefig(p, "plot.html")
+savefig(p, "plot.png")
