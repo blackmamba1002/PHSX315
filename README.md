@@ -22,8 +22,4 @@
 
 ## Problem 2 - Results
 
-![](https://github.com/phsx315-sp23/assignment5-Mamba-Grant/blob/main/resources/plot.svg)
-
-## Assignment Details
-
-[![]()](https://github.com/phsx315-sp23/assignment5-Mamba-Grant/blob/main/resources/Assignment5-315.pdf)
+![](https://github.com/phsx315-sp23/assignment5-Mamba-Grant/blob/main/resources/plot.png)
