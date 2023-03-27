@@ -1,2 +1,1 @@
-# PHSX315
-# PHSX315
+Contained within this project is all of the code that I created during the Spring of 2023, while taking PHSX 315. The course was on computational physics and employed statistical techniques to analyze experimental data and draw conclusions.
