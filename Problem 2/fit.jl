@@ -51,6 +51,6 @@ d2 = [
     name="Fit (High Precision)"
     )]
 
-p = [plot(d1, Layout(title="Low Precision (P. 2)", xaxis_title="Theta [rad]", yaxis_title="Period [s]")) plot(d2, Layout(title="High Precision (P. 2)", xaxis_title="Theta [rad]", yaxis_title="Period [s]"))]
+p = [plot(d1, Layout(title="Low Precision (P. 2)", xaxis_title="Theta [rad]", yaxis_title="Period [s]")) plot(d2, Layout(title="High Precision (P. 2)", xaxis_title="Theta [rad]"))]
 display(p)
 # savefig(p, "plot.png")
