@@ -1,0 +1,300 @@
+p-value = 0.3403188850593841
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.032626556547229235
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.9820330046914348
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.22833565009638124
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.021345150351458786
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.5408821102275788
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.73943842515482
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.930263470775493
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.8376339874772706
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.10863008285380793
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.4627114066076712
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.1461989035586304
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.5101601763132633
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.007885013130158436
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.1097709523280459
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.3975501353123524
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.4935562946006977
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.009806391439382556
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.5877446113444846
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.9730913467548761
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.6188156166847765
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.7728385119577483
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.21734228590916504
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.44858587919387105
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.4696914986801056
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.722053071097501
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.09311325902517098
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.347430571018984
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.44314081619430223
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.9968772766115822
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.46295799047185515
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.661929902848233
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.607118826779151
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.08784742499803311
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.5986813189392113
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.6465202298401467
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.40541101510857147
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.8202815842696244
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.7176929968540915
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.43047214061149797
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.2980803616327721
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.3536291718486464
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.9727406936019175
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.20980996757898795
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.23796082149032372
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.5090528333532812
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.2051539208714328
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.8624193351470022
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.33253111614104347
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.5531211366685143
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.19041683824799605
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.06271168084322554
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.218758582835469
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.5526205964539348
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.1689722636530746
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.21391411277630834
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.6558484553316266
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.14333527049749195
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.6204697166031361
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.7288844449437177
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.7145287167097405
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.5933622913554455
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.2760544828784942
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.5594609179663752
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.8721901281966673
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.4770370663530312
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.6815390531454616
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.9475940293861502
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.7662941053616066
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.9315705844963462
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.1219330384527113
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.7121846716831128
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.4751152274351572
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.8667774712648485
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.5270305183034563
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.41273755655760347
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.8608291362714804
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.7583625227936727
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.8376586849855114
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.379120659447444
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.24059343897986996
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.39821645047149423
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.742351239123742
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.5132893689998752
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.15566366338504167
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.4143877980188151
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.7203261233188367
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.6877595921861857
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.6106622733450667
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.8042503238848214
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.14563060687548457
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.6471812613626351
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.9910877982560978
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.8231238369485556
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.5468596557644463
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.11699871694919273
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.4223313389932104
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.3539041910123393
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.63311884559512
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
+p-value = 0.0532723988052578
+/home/mamba/Documents/repos/PHSX315/assignment5-Mamba-Grant/Problem 1/Chisqfit.py:48: InitialParamWarning: errordef is not given, defaults to 1.
+  m = Minuit(custom_chisq_model, c = 0.0, m = 0.0)  # starting values for intercept (c) and slope (m) parameters
